@@ -26,12 +26,14 @@ class Directory extends React.Component {
                 {
                     id: 4,
                     title: 'Parts', 
-                    imageURL: 'https://cdn3.volusion.com/vod3d.s9orw/v/vspfiles/photos/Puch-treat-kit-70cc-the-people-2T.jpg'
+                    imageURL: 'https://cdn3.volusion.com/vod3d.s9orw/v/vspfiles/photos/Puch-treat-kit-70cc-the-people-2T.jpg',
+                    size: 'large'
                 },
                 {
                     id: 5, 
                     title: 'Apparel',
-                    imageURL: 'https://cdn3.volusion.com/vod3d.s9orw/v/vspfiles/photos/rally-windbreaker-turquoise-2T.jpg?v-cache=1593187036'
+                    imageURL: 'https://cdn3.volusion.com/vod3d.s9orw/v/vspfiles/photos/rally-windbreaker-turquoise-2T.jpg?v-cache=1593187036',
+                    size: 'large'
                 }
             ]
         }
@@ -40,8 +42,8 @@ class Directory extends React.Component {
     render() {
         return (
             <div className='directory-menu'>
-                {this.state.sections.map(({ id, title, imageURL }) => (
-                    <MenuItem key={id} title={title} imageURL={imageURL} />
+                {this.state.sections.map(({ id, title, imageURL, size }) => (
+                    <MenuItem key={id} title={title} imageURL={imageURL} size={size} />
                 ))}
             </div>
         )
