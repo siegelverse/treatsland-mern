@@ -11,29 +11,34 @@ class Directory extends React.Component {
                 {
                     id: 1, 
                     title: 'Puch',
-                    imageURL: 'https://i.imgur.com/BxSgjPT.jpg'
+                    imageURL: 'https://i.imgur.com/BxSgjPT.jpg',
+                    linkURL: 'puch'
                 },
                 {
                     id: 2, 
                     title: 'Honda', 
-                    imageURL: 'https://i.imgur.com/c2TjbDk.jpg'
+                    imageURL: 'https://i.imgur.com/c2TjbDk.jpg',
+                    linkURL: ''
                 },
                 {
                     id: 3, 
                     title: 'Peugoet',
-                    imageURL: 'https://i.imgur.com/M7FpuhL.png'
+                    imageURL: 'https://i.imgur.com/M7FpuhL.png',
+                    linkURL: ''
                 }, 
                 {
                     id: 4,
                     title: 'Parts', 
                     imageURL: 'https://cdn3.volusion.com/vod3d.s9orw/v/vspfiles/photos/Puch-treat-kit-70cc-the-people-2T.jpg',
-                    size: 'large'
+                    size: 'large',
+                    linkURL: ''
                 },
                 {
                     id: 5, 
                     title: 'Apparel',
                     imageURL: 'https://cdn3.volusion.com/vod3d.s9orw/v/vspfiles/photos/rally-windbreaker-turquoise-2T.jpg?v-cache=1593187036',
-                    size: 'large'
+                    size: 'large',
+                    linkURL: ''
                 }
             ]
         }
@@ -42,8 +47,8 @@ class Directory extends React.Component {
     render() {
         return (
             <div className='directory-menu'>
-                {this.state.sections.map(({ id, title, imageURL, size }) => (
-                    <MenuItem key={id} title={title} imageURL={imageURL} size={size} />
+                {this.state.sections.map(({ id, ...sectionProps }) => (
+                    <MenuItem key={id} {...sectionProps} />
                 ))}
             </div>
         )
