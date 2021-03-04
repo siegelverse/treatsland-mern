@@ -15,7 +15,7 @@ export class SignIn extends React.Component {
         }
     }
 
-    handleSubmit = (e) => {
+    handleSubmit = async (e) => {
         e.PreventDefault();
 
         const { email, password } = this.state
