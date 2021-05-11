@@ -4,7 +4,7 @@ import './category.styles.scss';
 
 const CategoryPage = ({ match }) => (
     <div className='category'>
-        <h2>Category Page</h2>
+        <h2>{ match }</h2>
     </div>
 );
 
