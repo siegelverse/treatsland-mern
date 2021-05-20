@@ -4,15 +4,22 @@ import { connect } from 'react-redux';
 import { selectCollection } from '../../redux/shop/shop.selector';
 import './category.styles.scss';
 
-const CategoryPage = ({ collection }) => (
-    <div className='category'>
-        <h2>{ collection }</h2>
-    </div>
-);
+const CategoryPage = ({ collection }) => {
+    const { title, items } = collection;
+    return (
+        <div className='collection-page'>
+            <h2 className='title'>{title}</h2>
+            <div className='items'>
+                {items.map(item => (
+                    <CollectionItem key={item.id} item={item} />
+                ))}
+            </div>
+        </div>
+    );
+};
 
 const mapStateToProps = (state, ownProps) => ({
     collection: selectCollection(ownProps.match.params.collectionId)(state)
-
 })
 
 export default CategoryPage;
