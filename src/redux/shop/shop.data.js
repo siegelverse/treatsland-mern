@@ -168,7 +168,7 @@ const SHOP_DATA = [
           id: 23,
           name: 'Broken Mopeds T-shirt',
           imageUrl: 'https://i1.wp.com/www.detroitmopedworks.com/wp-content/uploads/2021/02/85ce3fd64e1f4979e04bc0c40b2edcf6196b2711.jpg?fit=1500%2C1500&ssl=1',
-          price: 20
+          price: 25
         },
         {
           id: 24,
