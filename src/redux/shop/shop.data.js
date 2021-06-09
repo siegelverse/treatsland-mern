@@ -14,7 +14,7 @@ const SHOP_DATA = {
           id: 2,
           name: 'Blue 1978 Puch Maxi',
           imageUrl: 'https://i0.wp.com/www.detroitmopedworks.com/wp-content/uploads/2016/06/Blue-Puch-Maxi.png?fit=1240%2C696&ssl=1',
-          price: 1200
+          price: 1100
         },
         {
           id: 3,
