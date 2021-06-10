@@ -20,7 +20,7 @@ const SHOP_DATA = {
           id: 3,
           name: 'Shop Burner Puch Maxi E50',
           imageUrl: 'https://i2.wp.com/www.detroitmopedworks.com/wp-content/uploads/2018/02/Custom-black-Puch-Maxi-ZA50-with-long-seat-from-Detroit-Moped-Works-2.jpg?fit=1600%2C898&ssl=1',
-          price: 700
+          price: 650
         },
         {
           id: 4,
