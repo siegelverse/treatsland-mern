@@ -26,7 +26,7 @@ const SHOP_DATA = {
           id: 4,
           name: '1976 White and Purple Puch Maxi',
           imageUrl: 'https://i0.wp.com/www.detroitmopedworks.com/wp-content/uploads/2018/04/White-and-Purple-Puch-Maxi-Detroit-Moped-Works-two-stroke-02.jpg?fit=1240%2C696&ssl=1',
-          price: 1350
+          price: 1250
         },
         {
           id: 5,
