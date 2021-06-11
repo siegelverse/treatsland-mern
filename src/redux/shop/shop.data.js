@@ -32,7 +32,7 @@ const SHOP_DATA = {
           id: 5,
           name: '1980 Puch Magnum XK',
           imageUrl: 'https://i0.wp.com/www.detroitmopedworks.com/wp-content/uploads/2016/06/magnum-xk.png?fit=1240%2C696&ssl=1',
-          price: 2200
+          price: 2000
         },
         {
             id: 6,
