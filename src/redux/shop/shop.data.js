@@ -38,7 +38,7 @@ const SHOP_DATA = {
             id: 6,
             name: '1986 Puch Maxi Sport LS2',
             imageUrl: 'https://i2.wp.com/www.detroitmopedworks.com/wp-content/uploads/2020/08/1986-Black-and-Gold-Puch-Maxi-Sport-LS2-1.jpg?fit=1600%2C898&ssl=1',
-            price: 1500
+            price: 1400
         }
       ]
     },
