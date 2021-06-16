@@ -51,7 +51,7 @@ const SHOP_DATA = {
           id: 7,
           name: '1969 Honda CM91 Super Cub',
           imageUrl: 'https://i0.wp.com/www.detroitmopedworks.com/wp-content/uploads/2020/08/1969-Honda-CM91-three-speed-motorcycle-1.jpg?fit=1600%2C898&ssl=1',
-          price: 1200
+          price: 1300
         },
         {
           id: 8,
