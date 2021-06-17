@@ -57,7 +57,7 @@ const SHOP_DATA = {
           id: 8,
           name: '1979 Honda Express',
           imageUrl: 'https://i2.wp.com/www.detroitmopedworks.com/wp-content/uploads/2016/05/Main-2.png?fit=1240%2C696&ssl=1',
-          price: 1500
+          price: 1600
         },
         {
           id: 9,
