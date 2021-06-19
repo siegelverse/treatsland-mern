@@ -63,7 +63,7 @@ const SHOP_DATA = {
           id: 9,
           name: 'Honda Hobbit Hybrid',
           imageUrl: 'https://i0.wp.com/www.detroitmopedworks.com/wp-content/uploads/2015/10/Nu50Hobbit-Cropped.jpg?fit=640%2C360&ssl=1',
-          price: 900
+          price: 950
         },
         {
           id: 10,
