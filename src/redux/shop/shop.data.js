@@ -75,7 +75,7 @@ const SHOP_DATA = {
             id: 11,
             name: 'Custom PA50 / 102 SP',
             imageUrl: 'https://i2.wp.com/www.detroitmopedworks.com/wp-content/uploads/2018/05/Custom-PA50-102-SP-01.jpg?fit=1600%2C898&ssl=1',
-            price: 2000
+            price: 1800
         },
         {
             id: 12,
