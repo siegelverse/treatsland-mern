@@ -69,7 +69,7 @@ const SHOP_DATA = {
           id: 10,
           name: 'Honda Hobbit Obsession',
           imageUrl: 'https://i2.wp.com/www.detroitmopedworks.com/wp-content/uploads/2015/03/Obsession-2.jpg?fit=960%2C722&ssl=1',
-          price: 1000
+          price: 1100
         },
         {
             id: 11,
